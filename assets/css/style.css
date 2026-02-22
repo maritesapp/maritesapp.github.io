@@ -3039,7 +3039,7 @@ a.animated-button.style2:hover:after {
 	}
 
 	#section-slider1 .swiper-slide .slider-content .left li {
-		width: 45%;
+		width: auto;
 	}
 
 	#section-clients1 {
@@ -3222,6 +3222,15 @@ a.animated-button.style2:hover:after {
 		margin-bottom: 30px;
 	}
 
+	#section-slider1 .swiper-slide .slider-content .left .btn-2 {
+		font-size: 18px !important;
+		padding: 10px 20px !important;
+		height: auto !important;
+		line-height: normal !important;
+		max-width: 100% !important;
+		overflow: visible !important;
+	}
+
 	#section-features1 .left {
 		width: 100%;
 		position: relative;
@@ -3373,6 +3382,15 @@ a.animated-button.style2:hover:after {
 		height: 30px;
 		line-height: 32px;
 		letter-spacing: 0;
+	}
+
+	#section-slider1 .swiper-slide .slider-content .left .btn-2 {
+		font-size: 16px !important;
+		padding: 8px 16px !important;
+		height: auto !important;
+		line-height: normal !important;
+		max-width: 100% !important;
+		overflow: visible !important;
 	}
 
 	.navbar-brand {
