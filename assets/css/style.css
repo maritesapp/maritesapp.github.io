@@ -3765,7 +3765,7 @@ body.scheme4 #section-slider1 {
 }
 
 body.scheme4 .bgscheme {
-	background-image: linear-gradient(120deg, #ffc882 0%, #ff8baa 100%);
+	background-image: linear-gradient(120deg, #1A73E8 0%, #D71972 100%);
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
@@ -3778,26 +3778,26 @@ body.scheme4 #section-features1 {
 
 body.scheme4 .bgsolidscheme,
 body.scheme4 #section-bloglist1 a.bghoverscheme:hover .time {
-	background: #ff8baa;
+	background: #1A73E8;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
 body.scheme4 .clscheme,
 body.scheme4 #section-bloglist1 a.bghoverscheme:hover h3.clscheme {
-	color: #ff8baa;
+	color: #D71972;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
 body.scheme4 .clhoverscheme {
-	color: #ff8baa;
+	color: #D71972;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
 body.scheme4 .navigationscheme {
-	background: linear-gradient(to right, #ffc882, #ff8baa);
+	background: linear-gradient(to right, #1A73E8, #D71972);
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
