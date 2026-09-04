@@ -3765,7 +3765,7 @@ body.scheme4 #section-slider1 {
 }
 
 body.scheme4 .bgscheme {
-	background-image: linear-gradient(120deg, #1A73E8 0%, #D71972 100%);
+	background: #D71972;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
@@ -3778,7 +3778,7 @@ body.scheme4 #section-features1 {
 
 body.scheme4 .bgsolidscheme,
 body.scheme4 #section-bloglist1 a.bghoverscheme:hover .time {
-	background: #1A73E8;
+	background: #D71972;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
@@ -3797,7 +3797,7 @@ body.scheme4 .clhoverscheme {
 }
 
 body.scheme4 .navigationscheme {
-	background: linear-gradient(to right, #1A73E8, #D71972);
+	background: #D71972;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
