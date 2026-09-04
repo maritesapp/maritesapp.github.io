@@ -3610,11 +3610,23 @@ a.animated-button.style2:hover:after {
  * Scheme 1
  */
 #section-slider1 {
-	background-image: url(../images/slider1.jpg);
-	background-size: cover;
-	background-position: bottom;
+	position: relative;
+	background-color: #000;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+}
+
+#section-slider1::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url(../images/banner.png);
+	background-size: cover;
+	background-position: bottom;
+	opacity: 0.25;
 }
 
 .bgscheme {
@@ -3653,7 +3665,7 @@ a.animated-button.style2:hover:after {
  * Scheme 2
  */
 body.scheme2 #section-slider1 {
-	background-image: url('../images/slider1_2.jpg');
+	background-color: #000;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
@@ -3706,7 +3718,7 @@ body.scheme2 #section-footer {
  * Scheme 3
  */
 body.scheme3 #section-slider1 {
-	background-image: url('../images/slider1_3.jpg');
+	background-color: #000;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
@@ -3759,7 +3771,7 @@ body.scheme3 #section-footer {
  * Scheme 4
  */
 body.scheme4 #section-slider1 {
-	background-image: url('../images/slider1_4.jpg');
+	background-color: #000;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
